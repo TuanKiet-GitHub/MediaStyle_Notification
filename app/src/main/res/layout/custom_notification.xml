@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_height="64dp">
+    <ImageView
+        android:id="@+id/imgView"
+        android:src="@drawable/mp3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_title_song"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="Sài gòn đau lòng quá"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_single_song"
+            android:textSize="12dp"
+            android:text="Hứa Kim Tuyền"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/previous"
+            android:id="@+id/imgPreviout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <ImageView
+            android:id="@+id/imagePause"
+            android:src="@drawable/pause"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <ImageView
+            android:src="@drawable/next"
+            android:id="@+id/imgNext"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <ImageView
+            android:id="@+id/imgClear"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/clear"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+</LinearLayout>
